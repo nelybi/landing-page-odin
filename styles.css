@@ -55,3 +55,73 @@ button {
   font-size: 18px;
   width: 110px;
 }
+
+main img {
+  width: 200px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  border-radius: 8px;
+}
+main h2 {
+  font-size: 36px;
+  color: #1f2937;
+  margin-bottom: 64px;
+}
+main {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 64px;
+}
+main div {
+  display: flex;
+  gap: 32px;
+}
+
+.main-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.citation {
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+  font-size: 36px;
+  color: #1f2937;
+  background-color: #e5e7eb;
+  padding: 64px 200px;
+}
+
+.citation p {
+  font-size: 24px;
+  font-weight: 100;
+  text-align: end;
+}
+.call-to-action {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 200px 64px;
+  border-radius: 8px;
+  padding: 32px;
+  background-color: #3882f6;
+  color: white;
+}
+.call-to-action button {
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 8px 16px;
+  color: white;
+  font-size: 18px;
+  width: 110px;
+}
+
+footer {
+  padding: 32px 0;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
